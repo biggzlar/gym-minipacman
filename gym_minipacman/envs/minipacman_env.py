@@ -450,7 +450,7 @@ class MiniPacman(gym.Env):
   def observation(self, agent_id=0):
     #Note: changed order
     #state,reward, done, info
-    info = {'episode':"default_info"}
+    info = {'episode': 'default_info', 'world_state' : self.world_state}
     ret = (self.color_image,
            self.reward,
            not self.pcontinue, info)
