@@ -8,7 +8,7 @@ The code is taken from https://github.com/vasiloglou/mltrain-nips-2017/blob/mast
 In order to install MiniPacman run:
 
 ```
-git clone https://github.com/FlorianKlemt/gym-minipacman.git
+git clone https://github.com/biggzlar/gym-minipacman.git
 cd gym-minipacman
 pip3 install -e .
 ```
